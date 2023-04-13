@@ -1,0 +1,594 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Grupo Cero</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Description Here">
+
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- animate css -->
+    <link href="css/plugins/animate.css" rel="stylesheet" type="text/css" />
+    <!--Theme Css-->
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- Slider Revolution Css Setting -->
+    <link href="plugins/rev_slider/css/settings-ver.5.3.1.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+        <!--Overlay-->
+    <div class="sidebar_overlay"></div>
+    <!-- End Sidebar Menu (Cart Menu) -------------------------------------------->
+
+    <!-- Search Overlay Menu ----------------------------------------------------->
+    <section class="search-overlay-menu">
+        <!-- Close Icon -->
+        <a href="javascript:void(0)" class="search-overlay-close">
+            <!--<i class="ti-close"></i>-->
+        </a>
+        <!-- End Close Icon -->
+        <div class="container">
+            <!-- Search Form -->
+            <form role="search" id="searchform" action="/search" method="get">
+                <label class="h6 normal search-input-label" for="search-query">Enter keywords to Search Product</label>
+                <input value="" name="q" type="search" placeholder="Search..." />
+                <button type="submit">
+                    <i class="ti-search"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- End Search Overlay Menu ------------------------------------------------>
+
+    <div class="site-wraper">
+        <!--Topbar-->
+        <section class="topbar bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <p class="info"><i class="fa fa-headphones left"></i>+569 42 53 4003</p>
+                    </div>
+                    <div class="col-md-6 text-lg-right text-md-left">
+                        <ul class="links">
+                            <li class="">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user left hidden-md-up"></i><span class="hidden-sm-down">My Account</span></a>
+                                <div class="dropdown-menu">
+                                    <a href="login-register.html" class="dropdown-item">My Account</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a href="login-register.html" class="dropdown-item">Login</a>
+                                    <a href="login-register.html" class="dropdown-item">Create an Account</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="login-register.html">Log In</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Topbar -->
+
+        <!--Header-->
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <!--Logo-->
+                    <div class="col">
+                        <a class="logo" href="index.html">
+                            <img src="img/logo_dark.png" alt="" />
+                        </a>
+                    </div>
+
+                    <!--Search Bar-->
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <form class="search-bar">
+                            <input class="search-bar-input form-full" type="search" placeholder="Search..." name="search" />
+                            <button class="search-bar-icon"><i class="ti-search"></i></button>
+                        </form>
+                    </div>
+
+                    <!--Toolbar Icon-->
+                    <div class="col text-right header-toolbar">
+                        <ul>
+                            <!--Search Tool Icon-->
+                            <li class="search-tool" id="search-overlay-menu-btn">
+                                <a><i class="ti-search"></i></a>
+                            </li>
+
+                            <!--Account Tool Icon-->
+                            <li class="account-tool">
+                                <a data-toggle="dropdown"><i class="ti-user"></i></a>
+                                <!--Dropdown-->
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="login-register.html" class="dropdown-item"><i class="fa fa-sign-in left"></i>Login</a>
+                                    <a href="login-register.html" class="dropdown-item"><i class="fa fa-user left"></i>Create an Account</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a href="login-register.html" class="dropdown-item">My Account</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div id="sticky_element" class="container-fluid p-0">
+                <div class="container">
+                    <div class="row">
+                        <!--Mobile Memu Button-->
+                        <div class="menu-mobile-btn col-12"><span><i class="fa fa-bars left"></i>Menu</span></div>
+
+                        <!--Navigation Menu-->
+                        <nav class="nav-menu col-md-12 col-sm-12">
+                            <ul>
+                                <li class="nav-menu-item">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="nav-menu-item">
+                                    <a href="#">Arte</a>
+                                    <div class="nav-dropdown">
+                                        <ul>
+                                            <li class="nav-menu-item">
+                                                <a href="#">Alternativo</a>
+                                                <ul class="nav-dropdown-sub">
+                                                    <li><a href="#">Elsoul</a></li>
+                                                    <li><a href="#">Orlando Sepulveda</a></li>
+                                                    <li><a href="#">Pablo chill e</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-menu-item">
+                                                <a href="#">Clasico</a>
+                                                <ul class="nav-dropdown-sub left">
+                                                    <li><a href="#">Carlos Abarzua</a></li>
+                                                    <li><a href="#">Jerry yarry</a></li>
+                                                    <li><a href="#">Rafael</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-menu-item">
+                                    <a href="#">Artistas</a>
+                                    <div class="nav-dropdown">
+                                        <ul>
+                                            <li class="nav-menu-item">
+                                                <a href="portfolio.html">Portfolio</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!--End Navigation Menu-->
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation -->
+        </header>
+        <!-- End Header -->
+
+        <!-- Intro -->
+        <section id="intro" class="intro">
+            <!-- Revolution Slider -->
+            <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="background-color: transparent; padding: 0px;">
+                <!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
+                <div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" style="display: none;" data-version="5.3.0.2">
+                    <ul>
+                        <li class="dark-bg" data-index="rs-1" data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="" data-saveperformance="off" data-title="01">
+                            <!-- Main Image Layer 0-->
+                            <img src="img/slide-img/slide_bg1.jpg" alt="h" title="home-1-slide-1" width="1920" height="1100" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" class="rev-slidebg" data-no-retina />
+
+
+                            <!--Layer 1-->
+                            <h1 class="tp-caption NotGeneric-Title tp-resizeme white text-center" style="letter-spacing: 0px; line-height: 60px;"
+                                data-x="135"
+                                data-y="center"
+                                data-hoffset=""
+                                data-voffset="-80"
+                                data-transform_idle="o:1;"
+                                data-width="['auto','auto','auto','auto']"
+                                data-height="['auto','auto','auto','auto']"
+                                data-transform_in="y:100px;opacity:0;s:700;e:Power3.easeOut;"
+                                data-transform_out="s:500;e:Power3.easeInOut;s:500;e:Power3.easeInOut;"
+                                data-start="500"
+                                data-speed="500"
+                                data-endspeed="500"
+                                data-splitin="none"
+                                data-splitout="none"
+                                data-responsive_offset="on">Variedad de estilos<br />
+                                Diferentes Influencias
+                            </h1>
+
+
+                            <!--Layer 2-->
+                            <h4 class="tp-caption NotGeneric-Title tp-resizeme h4 white text-center" style="letter-spacing: 0px;"
+                                data-x="190"
+                                data-y="center"
+                                data-hoffset=""
+                                data-voffset="20"
+                                data-transform_idle="o:1;"
+                                data-width="['auto','auto','auto','auto']"
+                                data-height="['auto','auto','auto','auto']"
+                                data-transform_in="y:50px;opacity:0;s:700;e:Power3.easeOut;"
+                                data-transform_out="s:500;e:Power3.easeInOut;s:500;e:Power3.easeInOut;"
+                                data-start="800"
+                                data-speed="500"
+                                data-endspeed="500"
+                                data-splitin="none"
+                                data-splitout="none"
+                                data-responsive_offset="on">Un aporte cultural 
+                            </h4>
+
+
+                        </li>
+                        <li data-index="rs-2" data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="" data-saveperformance="off" data-title="02">
+                            <!-- Main Image Layer 0-->
+                            <img src="img/slide-img/slide_bg2.jpg" alt="h" title="home-1-slide-1" width="1920" height="1100" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" class="rev-slidebg" data-no-retina />
+                            <!-- LAYERS -->
+
+
+                            <!--Layer 1-->
+                            <h1 class="tp-caption NotGeneric-Title tp-resizeme white" style="letter-spacing: 0px; line-height: 60px;"
+                                data-x="100"
+                                data-y="center"
+                                data-hoffset=""
+                                data-voffset="-80"
+                                data-transform_idle="o:1;"
+                                data-width="['auto','auto','auto','auto']"
+                                data-height="['auto','auto','auto','auto']"
+                                data-transform_in="y:100px;opacity:0;s:700;e:Power3.easeOut;"
+                                data-transform_out="s:500;e:Power3.easeInOut;s:500;e:Power3.easeInOut;"
+                                data-start="500"
+                                data-speed="500"
+                                data-endspeed="500"
+                                data-splitin="none"
+                                data-splitout="none"
+                                data-responsive_offset="on">Con diferentes culturas<br />
+                                Se enriqueze la diversidad
+                            </h1>
+
+
+                            <!--Layer 2-->
+                            <h4 class="tp-caption NotGeneric-Title tp-resizeme h4 white" style="letter-spacing: 0px;"
+                                data-x="100"
+                                data-y="center"
+                                data-hoffset=""
+                                data-voffset="20"
+                                data-transform_idle="o:1;"
+                                data-width="['auto','auto','auto','auto']"
+                                data-height="['auto','auto','auto','auto']"
+                                data-transform_in="y:50px;opacity:0;s:700;e:Power3.easeOut;"
+                                data-transform_out="s:500;e:Power3.easeInOut;s:500;e:Power3.easeInOut;"
+                                data-start="800"
+                                data-speed="500"
+                                data-endspeed="500"
+                                data-splitin="none"
+                                data-splitout="none"
+                                data-responsive_offset="on">Visita nuestro catalogo de artistas
+                            </h4>
+                        </li>
+                        <li data-index="rs-3" data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="" data-saveperformance="off" data-title="03">
+                            <!-- Main Image Layer 0-->
+                            <img src="img/slide-img/slide_bg3.jpg" alt="h" title="home-1-slide-1" width="1920" height="1100" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" class="rev-slidebg" data-no-retina />
+                            <!-- LAYERS -->
+                            <!--Layer 1-->
+                            <h1 class="tp-caption NotGeneric-Title tp-resizeme" style="letter-spacing: 0px; line-height: 60px;"
+                                data-x="100"
+                                data-y="center"
+                                data-hoffset=""
+                                data-voffset="-80"
+                                data-transform_idle="o:1;"
+                                data-width="['auto','auto','auto','auto']"
+                                data-height="['auto','auto','auto','auto']"
+                                data-transform_in="y:100px;opacity:0;s:700;e:Power3.easeOut;"
+                                data-transform_out="s:500;e:Power3.easeInOut;s:500;e:Power3.easeInOut;"
+                                data-start="500"
+                                data-speed="500"
+                                data-endspeed="500"
+                                data-splitin="none"
+                                data-splitout="none"
+                                data-responsive_offset="on">Quienes somos?<br />
+                                Grupo cero 
+                            </h1>
+
+
+                            <!--Layer 2-->
+                            <h4 class="tp-caption NotGeneric-Title tp-resizeme h4" style="letter-spacing: 0px;"
+                                data-x="100"
+                                data-y="center"
+                                data-hoffset=""
+                                data-voffset="20"
+                                data-transform_idle="o:1;"
+                                data-width="['auto','auto','auto','auto']"
+                                data-height="['auto','auto','auto','auto']"
+                                data-transform_in="y:50px;opacity:0;s:700;e:Power3.easeOut;"
+                                data-transform_out="s:500;e:Power3.easeInOut;s:500;e:Power3.easeInOut;"
+                                data-start="800"
+                                data-speed="500"
+                                data-endspeed="500"
+                                data-splitin="none"
+                                data-splitout="none"
+                                data-responsive_offset="on">Es una fundacion que se encarga de agrupar a artistas emergentes sean visuales o musicos
+                            </h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- End Revolution Slider -->
+        </section>
+        <!-- End Intro -->
+        
+        <!-- Banners -->
+        <section class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="promo-banner-wrap">
+                            <img src="img/banner/banner001.jpg" alt="mazel" />
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="promo-banner-wrap">
+                            <img src="img/banner/banner002.jpg" alt="mazel" />
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="promo-banner-wrap">
+                            <img src="img/banner/banner003.jpg" alt="mazel" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Banners -->
+        <!-- Social Banner -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col bg-sky follow-banner">
+                        <p class="black">Follow us on <a href="http://facebook.com/" class="link">Facebook</a> and <a href="http://twitter.com/" class="link">Twitter</a> to recive updates on our latest offer!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Social Banner -->
+
+        <!-- Blog Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <h3 class="page-title">Ultimas publicaciones</h3>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="blog-slider owl-carousel owl-theme">
+                        <!-- Blog Item -->
+                        <div class="item">
+                            <div class="blog-box">
+                                <div class="blog-img-wrap">
+                                    <img src="img/blog/blog_img001.jpg" alt="mazel" />
+                                </div>
+                                <div class="blog-box-content">
+                                    <div class="tag">
+                                        <a href="#">El monte sin agonia</a>
+                                    </div>
+                                    <h5 class="blog-title"><a href="#">Es una bella obra que explica el dolor de la agonia traspasada a un monte</a></h5>
+                                    <p class="info">
+                                        <span>by <a href="#">Orlando Sepulveda</a></span>
+                                        <span><i class="ti-timer"></i><span>29 Enero 2023</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog Item -->
+                        <div class="item">
+                            <div class="blog-box">
+                                <div class="blog-img-wrap">
+                                    <img src="img/blog/blog_img002.jpg" alt="mazel" />
+                                </div>
+                                <div class="blog-box-content">
+                                    <div class="tag">
+                                        <a href="#">Digitel</a>
+                                    </div>
+                                    <h5 class="blog-title"><a href="#">Huge Saving Limited Offer period</a></h5>
+                                    <p class="info">
+                                        <span>by <a href="#">Admin</a></span>
+                                        <span><i class="ti-timer"></i><span>29 Jan 2017</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog Item -->
+                        <div class="item">
+                            <div class="blog-box">
+                                <div class="blog-img-wrap">
+                                    <img src="img/blog/blog_img003.jpg" alt="mazel" />
+                                </div>
+                                <div class="blog-box-content">
+                                    <div class="tag">
+                                        <a href="#">Digitel</a>
+                                    </div>
+                                    <h5 class="blog-title"><a href="#">New Lunched Vintage Collaction 2017</a></h5>
+                                    <p class="info">
+                                        <span>by <a href="#">Admin</a></span>
+                                        <span><i class="ti-timer"></i><span>29 Jan 2017</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog Item -->
+                        <div class="item">
+                            <div class="blog-box">
+                                <div class="blog-img-wrap">
+                                    <img src="img/blog/blog_img004.jpg" alt="mazel" />
+                                </div>
+                                <div class="blog-box-content">
+                                    <div class="tag">
+                                        <a href="#">Digitel</a>
+                                    </div>
+                                    <h5 class="blog-title"><a href="#">The most recent releases from our community</a></h5>
+                                    <p class="info">
+                                        <span>by <a href="#">Admin</a></span>
+                                        <span><i class="ti-timer"></i><span>29 Jan 2017</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Blog Section -->
+
+        <!-- Promo Text Banner -->
+        <section class="promo">
+            <div class="container">
+                <div class="promo-box row">
+                    <!--Item-->
+                    <div class="col-md-4 mt-sm-2 promo-item">
+                        <div class="icon">
+                            <i class="fa fa-truck"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Transferencias sin impuestos</h4>
+                            <p>Envio gratis de comisiones</p>
+                        </div>
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-md-4 mt-sm-2 promo-item">
+                        <div class="icon">
+                            <i class="fa fa-handshake-o"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Devolucines</h4>
+                            <p>Devolucion de tu pago en 7 dias</p>
+                        </div>
+                    </div>
+
+                    <!--Item-->
+                    <div class="col-md-4 mt-sm-2 promo-item">
+                        <div class="icon">
+                            <i class="fa fa-headphones"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Soporte 24/7</h4>
+                            <p>Siempre preocupados por nuestros clientes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Promo Text Banner -->
+        <!-- Footer -->
+        <footer class="footer">
+
+            <!-- Newsletter -->
+            <div class="container">
+                <form class="footer_newsletter">
+                    <label class="h4">Subscribete para estar al tanto de novedades</label>
+                    <input class="input-lg" type="email" placeholder="Enter Your Email..." />
+                    <button class="btn btn-lg btn-color" type="submit">Sign Up</button>
+                </form>
+            </div>
+            <!-- End Newsletter -->
+
+            <!-- footer Info -->
+            <div class="container ptb-15">
+                <div class="row">
+
+                    <!-- About -->
+                    <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="footer-block about-us-block">
+                            <h5>Acerca de nosotros</h5>
+                            <p>Grupo cero es una instancia para artistas en general que quieran hacer llegar su arte mas alla que solo en su entorno</p>
+                            <ul class="footer-social-icon list-none-ib">
+                                <li><a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Links -->
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="footer-block links">
+                            <h6>Information</h6>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Terms &amp; Condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Contact-->
+                    <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="footer-block contact-block">
+                            <h6>Contact</h6>
+                            <ul>
+                                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Antonio varas 666, providencia
+                                    <br>
+                                    Santiago, Chile 2023</li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@sky.com">info@duocuc.cl</a></li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i>+569 42 53 4003</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- footer Info -->
+
+            <div class="copyright-bar container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="copyright">
+                            <p>&copy; Created by <a>Ing Informatica</a>. Estudiantes de 2do año</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+    <!--Jquery libery-->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!--Jquery libery-->
+    <script src="js/plugins/jquery-ui.js" type="text/javascript"></script>
+    <!--Modernizr-->
+    <script src="js/plugins/modernizr.js" type="text/javascript"></script>
+    <!--Tether Tooltip Plugin-->
+    <script src="js/plugins/tether.min.js" type="text/javascript"></script>
+    <!--Bootstrap Js-->
+    <script src="js/plugins/bootstrap.js" type="text/javascript"></script>
+    <!--OWL Slider-->
+    <script src="js/plugins/owl.carousel.min.js" type="text/javascript"></script>
+    <!--Slick Slider-->
+    <script src="js/plugins/slick.js" type="text/javascript"></script>
+    <!--Slider Revolution Js File -->
+    <script type="text/javascript" src="plugins/rev_slider/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="plugins/rev_slider/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="plugins/rev_slider/js/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="plugins/rev_slider/js/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="plugins/rev_slider/js/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="plugins/rev_slider/js/revolution.extension.layeranimation.min.js"></script>
+    <!-- Plugins All js -->
+    <script type="text/javascript" src="js/plugins/plugins-all.js"></script>
+    <!-- CountDown Clock Js File-->
+    <script type="text/javascript" src="js/plugins/jquery.downCount.js"></script>
+    <!--Main Theme Js File -->
+    <script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>
